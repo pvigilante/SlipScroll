@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+html {
+	background:lightblue;
+}
+section.row {
+	min-height:500px;
+	overflow:hidden;
+	position:relative;
+	padding:1em;
+}
+.dark {
+	background:#333;
+}
+.light {
+	background:#fff;
+}
+img.default {
+	position:fixed;
+}
+.movable {
+	position:absolute;
+}
